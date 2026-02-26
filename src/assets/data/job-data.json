@@ -1,0 +1,36 @@
+{
+  "jobList": [
+    {
+      "employer": "Target, Lisbon CT",
+      "title": "Barista/Team Member",
+      "description": "Temporary part-time (35+ hours) position. Responsibilities include customer service, store opening and closing, general maintenance, and POS management.",
+      "date": "1/2026 - Present",
+      "skills": "Customer Service, Inventory Management, POS Management",
+      "timelineColor": "#FFBF39"
+    },
+    {
+      "employer": "Oregon Health and Science University",
+      "title": "Summer Research Intern (Knight Cancer Research Institute)",
+      "description": "Participated in a bioinformatics internship at OHSU’s Knight Cancer Research Institute. Carried out self-directed research to develop effective machine learning models and packages to predict advanced prostate cancer subtypes and progression with postdoctoral advising.",
+      "date": "6/2025 - 8/2025",
+      "skills": "Python, R, Sci-Kit Learn, Pandas, MatPlotLib, ggplot2, BioConductor Packages, Genomic Data Analysis",
+      "timelineColor": "#FFBF39"
+    },
+    {
+      "employer": "Eastern Connecticut State University",
+      "title": "Office Assistant (Facilities Management and Planning)",
+      "description": "Provided thorough assistance to administrative and shop supervisors. Responsibilities included frequent scanning and filing, inventory management, work order management, creating and improving essential forms, as well as customer service and key management.",
+      "date": "8/2024 - 12/2025",
+      "skills": "Microsoft 365 Suite, Adobe Creative Suite, Inventory Management, Work Order Management, Excel Scripting",
+      "timelineColor": "#FFBF39"
+    },
+    {
+      "employer": "Dunkin' Donuts, Voluntown CT",
+      "title": "Crew Member",
+      "description": "Provided swift and effective service to 200+ customers each day. Responsibilities grew to include updating store inventory, point of sale management, and store closing.",
+      "date": "5/2021 - 1/2025",
+      "skills": "Customer Service, Inventory Management, POS Management",
+      "timelineColor": "#242424"
+    }
+  ]
+}

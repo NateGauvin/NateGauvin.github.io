@@ -1,0 +1,55 @@
+.job-date-container {
+    text-align: center;
+    position: relative;
+    width: 210px;
+}
+
+.job-date {
+    color: #FFBF39;
+    font-size: 1.2rem;
+    z-index: 2;
+    opacity: 1;
+    position: absolute;
+    background-color: #242424;
+    width: 100%;
+    margin-top: 0;
+}
+
+.timeline {
+    height: 100%;              /* Sets the length of the line */
+    display: inline-block;      /* Allows the line to sit alongside other content */
+    z-index: 1;
+    position: absolute;
+}
+
+.job-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
+    width: 70%;
+    margin-right: auto;
+    background-color: #3757B1;
+}
+
+.job-employer {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #FFBF39;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.job-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FFBF39;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.job-description {
+    color: #FFCD63;
+}

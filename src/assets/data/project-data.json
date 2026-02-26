@@ -1,0 +1,34 @@
+{
+  "projectList": [
+    {
+      "title": "AML-BET",
+      "description": "The Acute Myeloid Leukemia Biomarker Evaluation Tool (AML-BET) was developed to expedite the process of biomarker evaluation for clinical researchers and biologists. Can be run or hosted anywhere with Docker.",
+      "linkText": "View Repository",
+      "link": "https://github.com/NateGauvin/AML-BET"
+    },
+    {
+      "title": "Predicting mCRPC Subtypes",
+      "description": "Machine learning models to predict the subtypes and progression of mCRPC RNA-Seq samples with over 87% accuracy. All code and data is property of Oregon Health and Science University's Xia Lab (pending publication).",
+      "linkText": "View Lab Site",
+      "link": "https://github.com/NateGauvin/AML-BET"
+    },
+    {
+      "title": "Betty Media",
+      "description": "An online movie rental service created as the final project for a software engineering course. Seamlessly integrates the PayPal API, allowing users to purchase, retain, and view movies from a MongoDB database and home server.",
+      "linkText": "View Repository",
+      "link": "https://github.com/NateGauvin/Betty-Media"
+    },
+    {
+      "title": "Local Pairwise Alignment",
+      "description": "A small, robust Java program developed for a bioinformatics course. A dynamic programming matrix that compares two user-provided amino acid sequences and provides the optimal local alignment and the final alignment score.",
+      "linkText": "View Repository",
+      "link": "https://github.com/NateGauvin/LocalPairwiseAlignment"
+    },
+    {
+      "title": "D&D Combat Tracker",
+      "description": "A small Java Swing application that handles Dungeons and Dragons combat flow. Developed to provide DMs a simple desktop program to keep track of their games, supporting two different styles of combat management.",
+      "linkText": "View Repository",
+      "link": "https://github.com/NateGauvin/DND-Combat-Tracker"
+    }
+  ]
+}
