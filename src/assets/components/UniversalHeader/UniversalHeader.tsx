@@ -6,18 +6,18 @@ function UniversalHeader():JSX.Element {
         <header className={"site-header"}>
             <div className={"header-container"}>
                 <div className={"header-logo"}>
-                    <a href={"/"} className={"logo"}>NateGauvin</a>
+                    <a href={"#/"} className={"logo"}>NateGauvin</a>
                 </div>
                 <nav className="navbar">
                     <ul>
                         <li>
-                            <a href={"/projects"}>Projects</a>
+                            <a href={"#/projects"}>Projects</a>
                         </li>
                         <li>
-                            <a href={"/about-me"}>About Me</a>
+                            <a href={"#/about-me"}>About Me</a>
                         </li>
                         <li>
-                            <a href={"/contact-me"}>Contact Me</a>
+                            <a href={"#/contact-me"}>Contact Me</a>
                         </li>
                     </ul>
                 </nav>
