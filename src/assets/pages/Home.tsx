@@ -1,8 +1,9 @@
-import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx";
-import {SocialCard} from "../components/SocialCard/SocialCard.tsx";
+import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx"
+import {SocialCard} from "../components/SocialCard/SocialCard.tsx"
 import "../../App.css"
+import type {JSX} from "react"
 
-function Home() {
+function Home():JSX.Element {
     return(
         <>
             <UniversalHeader/>

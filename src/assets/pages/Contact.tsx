@@ -1,6 +1,7 @@
-import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx";
+import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx"
+import type {JSX} from "react"
 
-function Contact() {
+function Contact():JSX.Element {
     return(
         <>
             <UniversalHeader/>
@@ -10,7 +11,7 @@ function Contact() {
                     <div style={{filter: "invert(1)"}}>
                         <iframe
                             src="https://docs.google.com/forms/d/e/1FAIpQLSdcHTJjxvHaR41l7jXTYuL-z5iBSdwjUacUZrZfmQIJO-jfdQ/viewform?embedded=true"
-                            width="100%" height="850" frameBorder="0">Loading…
+                            width="100%" height="850">Loading…
                         </iframe>
                     </div>
                 </div>

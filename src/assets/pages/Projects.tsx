@@ -1,9 +1,10 @@
-import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx";
-import {ProjectCard} from "../components/ProjectCard/ProjectCard.tsx";
+import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx"
+import {ProjectCard} from "../components/ProjectCard/ProjectCard.tsx"
 import projects from "../data/project-data.json"
 import "../../App.css"
+import type {JSX} from "react"
 
-function Projects() {
+function Projects():JSX.Element {
     return(
         <>
             <UniversalHeader/>
@@ -20,10 +21,10 @@ function Projects() {
                     <hr/>
                     <div className={"card-container"}>
                         {projects.projectList.map((project: {
-                                title: string;
-                                description: string;
-                                linkText: string;
-                                link: string;
+                                title: string
+                                description: string
+                                linkText: string
+                                link: string
                             }) => (
                                 <ProjectCard projectTitle={project.title}
                                              projectDescription={project.description}

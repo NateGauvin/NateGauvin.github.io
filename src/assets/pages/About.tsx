@@ -1,14 +1,15 @@
-import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx";
+import UniversalHeader from "../components/UniversalHeader/UniversalHeader.tsx"
 import {JobCard} from "../components/JobCard/JobCard.tsx"
 import jobs from "../data/job-data.json"
 import {SkillCard} from "../components/SkillCard/SkillCard.tsx"
 import skills from "../data/skill-data.json"
 import {CertCard} from "../components/CertCard/CertCard.tsx"
 import certs from  "../data/cert-data.json"
+import type {JSX} from "react"
 
 /* #FFBF39 for all but last job, #242424 for last job */
 
-function About() {
+function About():JSX.Element {
     return(
         <>
             <UniversalHeader/>

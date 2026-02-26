@@ -1,5 +1,5 @@
 import "./ProjectCard.css"
-import type {FC, JSX} from "react";
+import type {FC, JSX} from "react"
 
 interface ProjectCardProps {
     projectTitle: string;
@@ -8,7 +8,7 @@ interface ProjectCardProps {
     buttonText: string;
 }
 
- export const ProjectCard: FC<ProjectCardProps> = (project):JSX.Element => {
+ export const ProjectCard: FC<ProjectCardProps> = (project:ProjectCardProps):JSX.Element => {
 
     const handleRepoClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();

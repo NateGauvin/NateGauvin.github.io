@@ -1,6 +1,7 @@
 import "./UniversalHeader.css"
+import type {JSX} from "react"
 
-function UniversalHeader() {
+function UniversalHeader():JSX.Element {
     return(
         <header className={"site-header"}>
             <div className={"header-container"}>
