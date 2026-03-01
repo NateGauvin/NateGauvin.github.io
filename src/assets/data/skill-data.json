@@ -53,10 +53,6 @@
       "name": "SciKit-Learn"
     },
     {
-      "logo": "/C++_logo.png",
-      "name": "C++"
-    },
-    {
       "logo": "/aws_logo.png",
       "name": "AWS"
     },
